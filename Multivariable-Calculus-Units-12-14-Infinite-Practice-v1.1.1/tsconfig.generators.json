@@ -1,0 +1,16 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "incremental": false,
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "noEmit": false,
+    "outDir": ".generator-test-dist",
+    "target": "ES2022"
+  },
+  "include": [
+    "lib/content-types.ts",
+    "lib/practice-generators.ts",
+    "scripts/verify-generators.mts"
+  ]
+}
